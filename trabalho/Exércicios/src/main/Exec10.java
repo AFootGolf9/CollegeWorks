@@ -10,7 +10,7 @@ public class Exec10 {
         boolean loop = true;
 
         while (loop) {
-            System.out.println("1 - Adicionar carro\n2 - Liberar vaga\n3 - Verificar status\n4 - Sair");
+            System.out.println("\n1 - Adicionar carro\n2 - Liberar vaga\n3 - Verificar status\n4 - Sair");
             int option = sc.nextInt();
 
             String placa;

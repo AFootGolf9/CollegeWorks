@@ -12,7 +12,7 @@ public class Estacionamento {
         if (this.placa[posicao] == null) {
             this.placa[posicao] = placa;
         } else {
-            System.out.println("Posição ocupada");
+            System.out.println("\nPosição ocupada");
         }
     }
 
