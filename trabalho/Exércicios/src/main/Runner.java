@@ -52,4 +52,36 @@ public class Runner {
         int n = sc.nextInt();
         System.out.println(Exec6.exec6(n));
     }
+
+    public void run7(){
+        char temp = Exec7.exec7();
+        if (temp == 'A') {
+            System.out.println("A venceu");
+        } else if (temp == 'B') {
+            System.out.println("B venceu");
+        } else {
+            System.out.println("Empate");
+        }
+    }
+
+    public void run8(Scanner sc){
+        sc.nextLine();
+        System.out.println("Digite uma frase: ");
+        String frase = sc.nextLine();
+        System.out.println(Exec8.exec8(frase));
+    }
+
+    public void run9(){
+        int[][] mtx = Exec9.exec9();
+        for (int i = 0; i < mtx.length; i++) {
+            for (int j = 0; j < mtx[i].length; j++) {
+                System.out.print(mtx[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public void run10(Scanner sc){
+        Exec10.exec10(sc);
+    }
 }

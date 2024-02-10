@@ -30,6 +30,18 @@ public class Exec11 {
             case 6:
                 runner.run6(sc);
                 break;
+            case 7:
+                runner.run7();
+                break;
+            case 8:
+                runner.run8(sc);
+                break;
+            case 9:
+                runner.run9();
+                break;
+            case 10:
+                runner.run10(sc);
+                break;
             default:
                 break;
         }
