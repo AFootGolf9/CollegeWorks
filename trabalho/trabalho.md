@@ -88,3 +88,9 @@ e o resto dessa divisão é a quantidade de enpates
     2. Caso ele escolha uma dos metodos é pedido que informe os parametros necessarios
     3. Caso ele escolha sair o progama é fechado
     4. Enquanto o usuario não sair o processo é repetido
+
+## Exec 11
+
+1. Pegunte ao usuario qual exercicio ele quer executar
+2. Caso seja um exercicio invalido continue repetindo
+3. Chame o codigo do exercicio selecionado
